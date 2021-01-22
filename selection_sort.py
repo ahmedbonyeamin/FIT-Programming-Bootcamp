@@ -40,6 +40,11 @@ since in each iteration we are looking for the "smallest" element,
 we are essentially picking elements in ascending order. 
 And since the elements in the sorted part are smaller than all elements 
 in the unsorted part we do not have to compare with them again. 
+
+**Note: We are going to create seperate functions for each of three tasks to better understand the code
+1. First funciton will find the minimum element in a list
+2. Second function will swap two elements in a list
+3. Finally, the third function will combine the previous two to create the selection sort algorithm
 """
 
 def min_item(lst):
